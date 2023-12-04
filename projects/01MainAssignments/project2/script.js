@@ -70,12 +70,13 @@ function draw() {
 
 }
 
-function mousePressed() {
+/*function mousePressed() {
   userStartAudio();
-}
+}*/
 
 function keyPressed() {
   speed = 1 + random(0.2);
+  userStartAudio();
 }
 
 class Roulette {
